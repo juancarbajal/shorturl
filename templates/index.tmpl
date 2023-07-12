@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Shorten URL</title>
+  </head>
+  <body>
+    <h1>Shorten URL</h1>
+    <form method="post" action="/">
+      Ingrese una URL <input type ="text" placeholder ="url" name="url"/>
+      <button type="submit" value="Registrar"/>Generar</button>
+</form>
+URL: {{.url}} => <a href ="{{.shortURL}}">{{.shortURL}}</a>
+</body>
+</html>
